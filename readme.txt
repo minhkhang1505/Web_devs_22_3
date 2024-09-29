@@ -1,0 +1,1 @@
+Khang khoai rất to!!! Khiêm cũng vậy... :V
