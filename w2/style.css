@@ -1,0 +1,41 @@
+img#img-CH {
+  position: relative;
+  left: 5rem;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 20%;
+  border-style: dotted;
+  border: 1rem groove yellow;
+}
+img:hover {
+  transform: rotateY(180deg) scale(1.1);
+  transition-duration: 1s;
+}
+div {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2rem;
+  height: 100vh;
+}
+ul {
+  font-size: 3rem;
+  list-style-type: square;
+  color: yellow;
+}
+ul li:hover {
+  color: orange;
+  text-shadow: 2px 2px 5px red;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: yellow;
+  text-shadow: 2px 2px 5px red;
+}
+body {
+  background-image: linear-gradient(blue, purple);
+}
+ul div {
+  height: 100%;
+}
