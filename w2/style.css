@@ -1,13 +1,100 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+}
+
+.infor{
+  width: 25%;
+  padding: 64px 0 0 0;
+  display: inline-block;
+}
+.Description{
+  display: inline-block;
+  width: 70%;
+  top:0;
+  right:0
+}
 img#img-CH {
   position: relative;
-  left: 5rem;
+  width: 100%;
+  right:0;
+  top:0;
+  border-radius: 5%;
+  display: block;
+  padding-bottom: 16px;
+  /* left: 5rem;
   width: 30rem;
   height: 30rem;
-  border-radius: 20%;
   border-style: dotted;
-  border: 1rem groove yellow;
+  border: 1rem groove #000; */
 }
-img:hover {
+
+body {
+  background-color:#97CADB;
+}
+
+.contact{
+  display: block;
+  background-color: #018ABE;
+  width: 100%;
+  border-radius: 16px;
+  margin: 16px 0;
+  padding: 16px 0;
+
+}
+
+.contact .text_content{
+  text-align: center;
+  color: #fff;
+}
+#nav li{
+  color:#000;
+  width: 100%;
+  text-align: justify;
+  font-size:20px;
+}
+#nav li a{
+  color: #000;
+  text-decoration: none;
+}
+#nav{
+  display: block;
+  margin-bottom: 12px;
+}
+
+.Description #name{
+  color: #fff;
+  padding: 64px 64px 16px 64px;
+  font-size: 44px;
+}
+
+.Des{
+  display: block;
+  background-color: #018ABE;
+  width: 100%;
+  border-radius: 16px;
+  margin: 0 64px;
+  padding: 8px 0;
+}
+
+.Des .text_content{
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+}
+.content .about_content{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 8px 64px;
+}
+/* img:hover {
   transform: rotateY(180deg) scale(1.1);
   transition-duration: 1s;
 }
@@ -20,7 +107,7 @@ div {
 ul {
   font-size: 3rem;
   list-style-type: square;
-  color: yellow;
+  color: #000;
 }
 ul li:hover {
   color: orange;
@@ -34,8 +121,8 @@ a:hover {
   text-shadow: 2px 2px 5px red;
 }
 body {
-  background-image: linear-gradient(blue, purple);
+  background-color:#97CADB;
 }
 ul div {
   height: 100%;
-}
+} */
